@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+      <title>Credit Card Fraud Detection</title>
+      <!-- CSS  -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="./static/ccfdStyles.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+   </head>
+   <body>
+      <div class="section no-pad-bot" id="index-banner">
+         <div class="container">
+            <br><br>
+            <h1 class="header center orange-text">Credit Card Fraud Detection</h1>
+            <div class="row center">
+               <h5 class="header col s12 light">Predict the credit card fraud detection by Entering values
+                  <br>
+               </h5>
+            </div>
+            <div class="row">
+               <form action='/predict' method="post" class="col s12">
+                  <div class="row">
+                     <div class="manual-inputfield">
+                        <label>Time</label><br>
+                        <input type="text" name="time" placeholder="Enter value of Time">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V1</label><br>
+                        <input type="text" name="v1" placeholder="Enter value of V1">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V2</label><br>
+                        <input type="text" name="v2" placeholder="Enter value of V2">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V3</label><br>
+                        <input type="text" name="v3" placeholder="Enter value of V3">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V4</label><br>
+                        <input type="text" name="v4" placeholder="Enter value of V4">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V5</label><br>
+                        <input type="text" name="v5" placeholder="Enter value of V5">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V6</label><br>
+                        <input type="text" name="v6" placeholder="Enter value of V6">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V7</label><br>
+                        <input type="text" name="v7" placeholder="Enter value of V7">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V8</label><br>
+                        <input type="text" name="v8" placeholder="Enter value of V8">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V9</label><br>
+                        <input type="text" name="v9" placeholder="Enter value of V9">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V10</label><br>
+                        <input type="text" name="v10" placeholder="Enter value of V10">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V11</label><br>
+                        <input type="text" name="v11" placeholder="Enter value of V11">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V12</label><br>
+                        <input type="text" name="v12" placeholder="Enter value of V12">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V13</label><br>
+                        <input type="text" name="v13" placeholder="Enter value of V13">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V14</label><br>
+                        <input type="text" name="v14" placeholder="Enter value of V14">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V15</label><br>
+                        <input type="text" name="v15" placeholder="Enter value of V15">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V16</label><br>
+                        <input type="text" name="v16" placeholder="Enter value of V16">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V17</label><br>
+                        <input type="text" name="v17" placeholder="Enter value of V17">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V18</label><br>
+                        <input type="text" name="v18" placeholder="Enter value of V18">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V19</label><br>
+                        <input type="text" name="v19" placeholder="Enter value of V19">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V20</label><br>
+                        <input type="text" name="v20" placeholder="Enter value of V20">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V21</label><br>
+                        <input type="text" name="v21" placeholder="Enter value of V21">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V22</label><br>
+                        <input type="text" name="v22" placeholder="Enter value of V22">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V23</label><br>
+                        <input type="text" name="v23" placeholder="Enter value of V23">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V24</label><br>
+                        <input type="text" name="v24" placeholder="Enter value of V24">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V25</label><br>
+                        <input type="text" name="v25" placeholder="Enter value of V25">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V26</label><br>
+                        <input type="text" name="v26" placeholder="Enter value of V26">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V27</label><br>
+                        <input type="text" name="v27" placeholder="Enter value of V27">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>V28</label><br>
+                        <input type="text" name="v28" placeholder="Enter value of V28">
+                     </div>
+                     <div class="manual-inputfield">
+                        <label>Amount</label><br>
+                        <input type="text" name="v29" placeholder="Enter value of Amount">
+                     </div> 
+                     <div class='btn-cover2'>
+                        <button type="submit"  class="btn" >submit</button>
+                     </div>
+               </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      <p><b>{{ classValue }}</b></p>
+   </body>
+</html>
